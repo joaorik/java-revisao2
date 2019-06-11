@@ -11,7 +11,8 @@ package poo2;
  */
 public class NotaException extends Exception {
     
-    public String message() {
+    @Override
+    public String getMessage() {
         return "Nota nao pode ser menor que zero";
     }
     
